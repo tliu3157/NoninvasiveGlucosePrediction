@@ -1,0 +1,17 @@
+# Participant data (confidential, never commit)
+data/
+*.csv
+
+# Trained models (trained on participant data)
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store

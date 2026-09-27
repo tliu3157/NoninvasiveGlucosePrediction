@@ -87,6 +87,8 @@ NoninvasiveGlucosePrediction/
 ├── FinalLSTM.ipynb            # LSTM sequence model
 ├── GRUModel.ipynb             # GRU sequence model + correlation heatmap
 ├── EnsembleModelFinal.ipynb   # GRU + RF stacked with Ridge regression, time-series CV
+├── .gitignore
+├── LICENSE
 └── README.md
 ```
 
@@ -97,6 +99,10 @@ NoninvasiveGlucosePrediction/
 The notebooks are provided so you can review the full methodology: preprocessing, model architectures, training, and evaluation. Each notebook is saved with its outputs, so you can see the printed metrics, training logs, and plots directly on GitHub without running anything.
 
 The code was developed with Python 3.11 using `numpy`, `pandas`, `scikit-learn`, `tensorflow`, `matplotlib`, and `seaborn`.
+
+## License
+
+The code in this repository is released under the [MIT License](LICENSE). The participant data is not included and is not covered by this license.
 
 ## Acknowledgments
 
